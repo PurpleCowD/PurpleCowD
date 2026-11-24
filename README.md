@@ -1,6 +1,6 @@
 <!-- GitHub profile README for github.com/PurpleCowD -->
 <div align="center">
-  <h1>Simón Paipa</h1>
+  <h1>Hi, I'm Erasmo Hernández</h1>
   <p><em>Turning ideas into software people can use.</em></p>
   <p><a href="https://github.com/PurpleCowD/PurpleCowD/blob/main/assets/simon-paipa-cv.pdf">View my CV ↗</a></p>
 </div>
