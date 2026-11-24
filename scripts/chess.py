@@ -1,5 +1,6 @@
 """Community chess: only legal moves for the current board revision are accepted."""
 import json
+from html import escape
 import os
 import re
 from pathlib import Path
@@ -47,17 +48,19 @@ def link(command):
 status = ('White' if board.turn else 'Black') + ' to move' + (' · Check!' if board.is_check() else '')
 if board.is_game_over():
     status = f'Game finished · {board.result()}'
-lines = ['<!-- CHESS:START -->', f'**Game {state["game"]} · {status}**', '', '<p align="center"><img src="./assets/chess-board.svg" width="480" alt="Current community chess board. Legal moves are listed below." /></p>', '']
+lines = ['<!-- CHESS:START -->', f'**Game {state["game"]} · {status}**', '', '<table>', '<tr>', '<td valign="top" width="60%">', '<img src="./assets/chess-board.svg" width="480" alt="Current community chess board. Legal moves are listed alongside it." />', '</td>', '<td valign="top" width="40%">', '<h3>Choose your move</h3>']
 if board.is_game_over():
-    lines += [f'[Start the next game ↗]({link("new")})']
+    lines += [f'<p><a href="{escape(link("new"), quote=True)}">Start the next game ↗</a></p>']
 else:
-    lines += ['Choose a move below, then submit the prefilled GitHub issue. Anyone with a GitHub account can play either side.', '', '| Piece from | Legal destinations |', '| :--- | :--- |']
+    lines += ['<p>Select a destination, then submit the prefilled issue. Anyone with a GitHub account can play either side.</p>', '<table>', '<tr><th>From</th><th>Move</th></tr>']
     groups = {}
     for move in sorted(board.legal_moves, key=lambda m: m.uci()):
         groups.setdefault(chess.square_name(move.from_square), []).append(move)
     for origin, moves in groups.items():
-        choices = ' · '.join(f'[{board.san(m)}]({link(m.uci())})' for m in moves)
-        lines.append(f'| {origin} | {choices} |')
+        choices = ' · '.join(f'<a href="{escape(link(m.uci()), quote=True)}">{board.san(m)}</a>' for m in moves)
+        lines.append(f'<tr><td>{origin}</td><td>{choices}</td></tr>')
+    lines.append('</table>')
+lines += ['</td>', '</tr>', '</table>', '']
 if state['moves']:
     lines += ['', '<details>', '<summary>Recent moves</summary>', '', '| Move | Player |', '| :--- | :--- |']
     for move in state['moves'][-8:]:
