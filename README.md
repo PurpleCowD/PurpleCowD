@@ -1,14 +1,17 @@
 <!-- GitHub profile README for github.com/PurpleCowD -->
 <div align="center">
-  <img src="./assets/header.svg" width="960" alt="Simón Paipa — Ideas into interfaces. Algorithms into experiences." />
-  <p><a href="https://github.com/PurpleCowD/PurpleCowD/blob/main/assets/simon-paipa-cv.pdf"><img src="./assets/view-cv.svg" width="360" alt="Explore my background — view résumé in the browser" /></a></p>
+  <h1>Simón Paipa</h1>
+  <p><em>Turning ideas into software people can use.</em></p>
+  <p><a href="https://github.com/PurpleCowD/PurpleCowD/blob/main/assets/simon-paipa-cv.pdf">View my CV ↗</a></p>
 </div>
 
 ---
 
 ## About me
 
-I explore how intelligent systems can become useful, intuitive experiences—from neural networks and search algorithms to voice interfaces and web applications. At Universidad Militar Nueva Granada, I bring together software development, artificial intelligence, and interaction design.
+I build software that connects algorithms with usable interfaces. My collaborative projects include implementing graph-search algorithms in Python, developing perception-based decision logic for an intelligent agent, and integrating Spanish speech recognition into a browser-based 3D game.
+
+I have also designed interactive interfaces for visualizing neural-network training and developed the frontend of a tournament platform used in live competition. I enjoy making complex behavior easier to explore, understand, and use.
 
 ## Technologies & tools
 
@@ -54,3 +57,9 @@ Choose a move below, then submit the prefilled GitHub issue. Anyone with a GitHu
 <!-- CHESS:END -->
 
 <sub>Inspired by [Tim Burgan’s community chess](https://github.com/timburgan/timburgan). Rules validated with [python-chess](https://python-chess.readthedocs.io/).</sub>
+
+## Beyond the code
+
+- **Building for real use.** Developed the frontend of **tMtCup**, replacing an Excel-based workflow with live scores, standings, and player statistics for **16 teams and approximately 90 matches** (2026).
+- **Sharing what I learn.** Taught **Python, HTML, and CSS** through one-on-one lessons, weekly exercises, and final projects as an independent programming tutor (2023–2025).
+- **From prototype to pitch.** Won **first place at Replit × Platzi Building Fest** with a collaboratively developed startup prototype, product demo, and pitch (November 2026).

@@ -71,4 +71,4 @@ if count != 1:
     raise SystemExit('Expected one chess section.')
 readme.write_text(text, encoding='utf-8')
 state_path.write_text(json.dumps(state, indent=2) + '\n')
-(ROOT / 'assets/chess-board.svg').write_text(chess.svg.board(board, size=480, colors={'square light': '#e9e0f5', 'square dark': '#8064a2', 'margin': '#171321', 'coord light': '#e9e0f5', 'coord dark': '#e9e0f5'}), encoding='utf-8')
+(ROOT / 'assets/chess-board.svg').write_text(chess.svg.board(board, size=480, colors={'square light': '#eeeed2', 'square dark': '#769656', 'margin': '#283127', 'coord light': '#eeeed2', 'coord dark': '#eeeed2'}), encoding='utf-8')
