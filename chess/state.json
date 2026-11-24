@@ -1,1 +1,10 @@
-{"game": 1, "moves": []}
+{
+  "game": 1,
+  "moves": [
+    {
+      "uci": "c2c3",
+      "san": "c3",
+      "player": "PurpleCowD"
+    }
+  ]
+}
