@@ -7,6 +7,7 @@
   Multimedia Engineering student at <strong>Universidad Militar Nueva Granada</strong></p>
   <p><em>Building intelligent systems, thoughtful interfaces, and software people can use.</em></p>
   <p><a href="https://www.linkedin.com/in/sim%C3%B3n-paipa">LinkedIn</a> · <a href="mailto:simonpaipab@gmail.com">Email</a> · Bogotá, Colombia</p>
+  <p><a href="./assets/simon-paipa-cv.pdf" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Ver_CV-Abrir_en_el_navegador-6C4AB6?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Ver CV en el navegador" /></a></p>
 </div>
 
 ---
