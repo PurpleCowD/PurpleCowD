@@ -2,16 +2,11 @@
 <!-- HERO BANNER: intentionally reserved for a future design. -->
 
 <div align="center">
-
-# Simón Paipa
-
-**Junior AI Engineer · Software Developer**  
-Multimedia Engineering student at **Universidad Militar Nueva Granada**
-
-*Building intelligent systems, thoughtful interfaces, and software people can use.*
-
-[LinkedIn](https://www.linkedin.com/in/sim%C3%B3n-paipa) · [Email](mailto:simonpaipab@gmail.com) · Bogotá, Colombia
-
+  <h1>Simón Paipa</h1>
+  <p><strong>Junior AI Engineer · Software Developer</strong><br/>
+  Multimedia Engineering student at <strong>Universidad Militar Nueva Granada</strong></p>
+  <p><em>Building intelligent systems, thoughtful interfaces, and software people can use.</em></p>
+  <p><a href="https://www.linkedin.com/in/sim%C3%B3n-paipa">LinkedIn</a> · <a href="mailto:simonpaipab@gmail.com">Email</a> · Bogotá, Colombia</p>
 </div>
 
 ---
@@ -91,8 +86,6 @@ Collaborated on a startup prototype and delivered a product demo and pitch.
 ---
 
 <div align="center">
-
-**Let's connect**  
-[LinkedIn](https://www.linkedin.com/in/sim%C3%B3n-paipa) · [Email](mailto:simonpaipab@gmail.com)
-
+  <p><strong>Let's connect</strong></p>
+  <p><a href="https://www.linkedin.com/in/sim%C3%B3n-paipa">LinkedIn</a> · <a href="mailto:simonpaipab@gmail.com">Email</a></p>
 </div>
