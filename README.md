@@ -58,8 +58,9 @@ Choose a move below, then submit the prefilled GitHub issue. Anyone with a GitHu
 
 <sub>Inspired by [Tim Burgan’s community chess](https://github.com/timburgan/timburgan). Rules validated with [python-chess](https://python-chess.readthedocs.io/).</sub>
 
-## Beyond the code
+---
 
-- **Building for real use.** Developed the frontend of **tMtCup**, replacing an Excel-based workflow with live scores, standings, and player statistics for **16 teams and approximately 90 matches** (2026).
-- **Sharing what I learn.** Taught **Python, HTML, and CSS** through one-on-one lessons, weekly exercises, and final projects as an independent programming tutor (2023–2025).
-- **From prototype to pitch.** Won **first place at Replit × Platzi Building Fest** with a collaboratively developed startup prototype, product demo, and pitch (November 2026).
+<div align="center">
+  <p><em>Thanks for stopping by—and for making your move.</em></p>
+  <sub>© 2026 Simón Paipa. Original profile content.</sub>
+</div>
