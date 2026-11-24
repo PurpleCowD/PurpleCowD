@@ -24,7 +24,8 @@ jobs:
       - run: python -P scripts/test_chess.py
   play:
     needs: check
-    if: github.event_name == 'workflow_dispatch' || startsWith(github.event.issue.title, 'chess: ')
+    if: >-
+      github.event_name == 'workflow_dispatch' || startsWith(github.event.issue.title, 'chess: ')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
