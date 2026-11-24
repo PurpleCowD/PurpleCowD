@@ -1,17 +1,14 @@
 <!-- GitHub profile README for github.com/PurpleCowD -->
 <div align="center">
-  <h2>Building intelligent systems and thoughtful interfaces.</h2>
-  <p>Turning algorithms into applications people can use.</p>
-  <p><a href="https://github.com/PurpleCowD/PurpleCowD/blob/main/assets/simon-paipa-cv.pdf"><img src="https://img.shields.io/badge/View_CV-6C4AB6?style=for-the-badge" alt="View my CV in the browser" /></a></p>
+  <img src="./assets/header.svg" width="960" alt="Simón Paipa — Ideas into interfaces. Algorithms into experiences." />
+  <p><a href="https://github.com/PurpleCowD/PurpleCowD/blob/main/assets/simon-paipa-cv.pdf"><img src="./assets/view-cv.svg" width="360" alt="Explore my background — view résumé in the browser" /></a></p>
 </div>
 
 ---
 
 ## About me
 
-I enjoy designing interfaces that make complex systems easier to understand. My studies at Universidad Militar Nueva Granada bring together software, interactive experiences, and artificial intelligence.
-
-My work has explored neural networks, search algorithms, logic-based agents, speech-recognition experiences, and modern web development. I care about both how software works and how people experience it.
+I explore how intelligent systems can become useful, intuitive experiences—from neural networks and search algorithms to voice interfaces and web applications. At Universidad Militar Nueva Granada, I bring together software development, artificial intelligence, and interaction design.
 
 ## Technologies & tools
 
@@ -31,24 +28,29 @@ My work has explored neural networks, search algorithms, logic-based agents, spe
 
 <p align="center"><sub>JavaScript · HTML5 · CSS3 · Tailwind CSS · Git · GitHub · VS Code</sub></p>
 
-## A tiny AI challenge
+## Your move.
 
-An XOR gate returns **1 when its two inputs are different**, and **0 when they match**.
+One board. Everyone plays. Make a move and leave the next one to another visitor.
 
-`(0, 0) → 0` · `(0, 1) → 1` · `(1, 0) → 1`
+<!-- CHESS:START -->
+**Game 1 · White to move**
 
-**What should `(1, 1)` return—and can a single linear neuron represent all four cases?**
+<p align="center"><img src="./assets/chess-board.svg" width="480" alt="Community chess board, starting position. White to move." /></p>
 
-<details>
-<summary>Reveal the answer</summary>
+Choose a move below, then submit the prefilled GitHub issue. Anyone with a GitHub account can play either side.
 
-**0.** The inputs match. A single linear decision boundary cannot separate the XOR classes: the positive cases occupy opposite corners of the input space. A neural network with a nonlinear hidden layer can represent this pattern.
+| Piece from | Legal destinations |
+| :--- | :--- |
+| a2 | [a3](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Aa2a3&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) · [a4](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Aa2a4&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) |
+| b1 | [Na3](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Ab1a3&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) · [Nc3](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Ab1c3&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) |
+| b2 | [b3](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Ab2b3&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) · [b4](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Ab2b4&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) |
+| c2 | [c3](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Ac2c3&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) · [c4](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Ac2c4&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) |
+| d2 | [d3](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Ad2d3&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) · [d4](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Ad2d4&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) |
+| e2 | [e3](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Ae2e3&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) · [e4](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Ae2e4&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) |
+| f2 | [f3](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Af2f3&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) · [f4](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Af2f4&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) |
+| g1 | [Nf3](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Ag1f3&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) · [Nh3](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Ag1h3&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) |
+| g2 | [g3](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Ag2g3&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) · [g4](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Ag2g4&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) |
+| h2 | [h3](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Ah2h3&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) · [h4](https://github.com/PurpleCowD/PurpleCowD/issues/new?title=chess%3A+1%3A0%3Ah2h4&body=Submit+this+issue+to+play+your+move.+The+board+updates+automatically%3B+refresh+the+profile+afterwards.) |
+<!-- CHESS:END -->
 
-</details>
-
-## Contact
-
-<div align="center">
-  <a href="mailto:simonpaipab@gmail.com">simonpaipab@gmail.com</a>
-</div>
-
+<sub>Inspired by [Tim Burgan’s community chess](https://github.com/timburgan/timburgan). Rules validated with [python-chess](https://python-chess.readthedocs.io/).</sub>
